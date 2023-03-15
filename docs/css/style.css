@@ -1,0 +1,31 @@
+body{
+    margin: 4%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.autor{
+    border-bottom: dotted 1rem black; /*short hand*/
+    color: rgb(73, 108, 132);
+    font-size: 3rem;
+}
+
+.prof{
+    color: orange
+}
+
+.description{
+    color: #333333;
+}
+.contato{
+    border: solid black;
+    text-align: center;
+    margin: 10%;
+    padding: 1rem;
+}
+.contato li{
+    text-align: left;
+}
+
+.iconnet{
+    font-size: 2rem;
+}
