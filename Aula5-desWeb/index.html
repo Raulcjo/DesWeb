@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/atividade1.js"></script>
+    <title>Aula 4</title>
+</head>
+<body>
+    <section>
+        <div>
+            <p>
+                <h1>Tabuada</h1>
+                <label for="numero">
+                    Qual tabuada você quer fazer?
+                </label>
+            </p>
+        <input type="number" id="numero">
+        <button onclick="tabuada2()">calcular</button>
+        </div>
+        <div id="resultado">
+            <!--<ul id="resultado"></ul>-->
+        </div>
+    </section>
+    <section>
+        <div>
+            <p>
+                <h1>Conatdor de clicks</h1>
+                <label for="clicks">
+                    Esse botão recebeu <span id="cliques">0</span> cliques
+                </label>
+                <p></p>
+                <button onclick="numClick()">Clique aqui</button>
+            </p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <p>
+                <h1>Gerador de número aletório - 1</h1>
+                <p></p>
+                <button onclick="random()">Clique para sortear</button>
+                <h5 id="numRandom"></h5>
+            </p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <p>
+                <h1>Gerador de número aletório - 2</h1>
+                <p></p>
+                <input type="number" id="limite">
+                <button onclick="sortear()">Clique para sortear</button>
+                <h5 id="numAle"></h5>
+            </p>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
