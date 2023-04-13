@@ -1,0 +1,1 @@
+console.log("Hoje é dia de festa");
