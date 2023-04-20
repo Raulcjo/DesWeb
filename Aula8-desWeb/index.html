@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/media.js"></script>
+    <title>Calcular média</title>
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col my-5"></div>
+    </div>
+    <div class="p-5 m-5 border">
+        <h1>Calculo de média: </h1>
+        <p>
+            Coloque as quatro notas que o aluno obteve durante o semestre:
+            <p></p>
+            <input type="number" id="nota1" min="0" max="10" placeholder="nota 1">
+            
+            <input type="number" id="nota2" min="0" max="10" placeholder="nota 2">
+            
+            <input type="number" id="nota3" min="0" max="10" placeholder="nota 3">
+            
+            <input type="number" id="nota4" min="0" max="10" placeholder="nota 4">
+        </p>
+        <button class="btn bg-dark text-white" onclick="getNotas()">Enviar</button>
+        <p>
+            <h5 id="resultado"></h5>
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
