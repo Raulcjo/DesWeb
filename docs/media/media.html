@@ -9,7 +9,7 @@
     <script src="js/calculo.js"></script>
     <title>Calcular média</title>
 </head>
-<body>
+<body class="bg-light">
     <div class="container">
     <div class="row">
         <div class="col my-5"></div>
@@ -19,18 +19,32 @@
         <p>
             Coloque as quatro notas que o aluno obteve durante o semestre:
             <p></p>
-            <input type="number" id="nota1" min="0" max="10" placeholder="nota 1">
-            
-            <input type="number" id="nota2" min="0" max="10" placeholder="nota 2">
-            
-            <input type="number" id="nota3" min="0" max="10" placeholder="nota 3">
-            
-            <input type="number" id="nota4" min="0" max="10" placeholder="nota 4">
+
+            <div class="row">
+                <div class="col-12">
+                    <input type="text" id="nome" placeholder="Nome do aluno" class="form-control">
+                    <p></p>
+                </div>
+                
+                <div class="col-3">
+                  <input type="number" id="nota1" min="0" max="10" placeholder="Nota 1" class="form-control">
+                </div>
+                <div class="col-3">
+                  <input type="number" id="nota2" min="0" max="10" placeholder="Nota 2" class="form-control">
+                </div>
+                <div class="col-3">
+                    <input type="number" id="nota3" min="0" max="10" placeholder="Nota 3" class="form-control">
+                  </div>
+                  <div class="col-3">
+                    <input type="number" id="nota4" min="0" max="10" placeholder="Nota 4" class="form-control">
+                  </div>
+              </div>
         </p>
         <button class="btn btn-outline-light" onclick="getNotas()">Enviar</button>
         <p>
             <h5 id="resultado"></h5>
         </p>
+        <div><a href="../index.html" class="text-white">Página inicial</a></div>
     </div>
 
 </div>
