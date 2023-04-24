@@ -9,7 +9,7 @@
     <script src="js/sorteio.js" defer></script>
     <title>Sorteador</title>
 </head>
-<body>
+<body class="bg-light">
     <section class="container text-center">
         <div class="row">
             <div class="col my-5"></div>
@@ -18,14 +18,20 @@
                 <p>
                     <h1>Gerador de número aleatório</h1>
                     <p>Digite o intervalo que deseja sortear: </p>
-                    <input type="number" id="min" placeholder="número mínimo"> 
-                    <input type="number" id="max" placeholder="número máximo">
+                    <div class="row">
+                        <div class="col">
+                          <input type="number" id="min" placeholder="Número mínimo" class="form-control">
+                        </div>
+                        <div class="col">
+                          <input type="number" id="max" placeholder="Número máximo" class="form-control">
+                        </div>
+                      </div>
                 </p>
                 <button onclick="sortearMinMax()" class="btn btn-outline-light">Clique para sortear</button>
                 <p>
                     <h5 id="numAle" ></h5>
                 </p>
-                
+                <div><a href="../index.html" class="text-white">Página inicial</a></div>
         </div>
     </section>
 </body>
