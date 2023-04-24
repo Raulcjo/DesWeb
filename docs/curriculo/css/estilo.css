@@ -1,13 +1,13 @@
 body{
     margin: 4%;
 }
-
 .autor{
     font-size: 3rem;
 }
-
+.description{
+    color: #333333;
+}
 .contato{
     margin-top: 5%;
     padding: 1rem;
 }
-
