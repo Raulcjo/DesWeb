@@ -18,8 +18,15 @@ function Salvar2(){ //ideia alternativa
     let tableUser = document.querySelector('.table');
     let row = tableUser.insertRow();
 
-    for(let i= 0; i < 4; i++){
-        //pegar os valores 
+    let celulas = [5];
+
+    for(let i= 0; i < celulas.length; i++){
+        cel = row.insertCell(i);
+        let adicionar = celulas.unshift('cel');
+        cel.get(0).innerHTML = document.getElementById('nome').value;
+        cel.get(1).innerHTML = document.getElementById('email').value;
+        cel.get(2).innerHTML = document.getElementById('nasc').value;
+        cel.get(3).innerHTML = document.querySelector('#uf').value;
+        cel.get(4).innerHTML = '<i class="bi bi-pencil-square"></i>';
     }
 }
-
